@@ -1,0 +1,32 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.new-collections h1 {
+    color: purple;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 90px;
+}
+@media(max-width: 693px) {
+    .new-collections h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+}
+.new-collections hr {
+    width: 200px;
+    margin-bottom: 30px;
+}
+.collections {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    text-align: center;
+}
+.collections .item img {
+    width: 250px;
+}
+
