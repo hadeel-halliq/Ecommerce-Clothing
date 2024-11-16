@@ -18,12 +18,19 @@ function App() {
         <Routes>
           <Route path="/" element={<Shop/>}/>
           <Route path="/men" element={<ShopCategory banner={banner_men} category='men'/>}/>
+          <Route path="/ecommerce-clothing" element={<ShopCategory banner={banner_men} category='men'/>}/>
           <Route path="/women" element={<ShopCategory banner={banner_women} category='women'/>}/>
+          <Route path="/ecommerce-clothing" element={<ShopCategory banner={banner_women} category='women'/>}/>
           <Route path="/kids" element={<ShopCategory banner={banner_kids} category='kid'/>}/>
+          <Route path="/ecommerce-clothing" element={<ShopCategory banner={banner_kids} category='kid'/>}/>
           <Route path="/product" element={<Product/>}/>
+          <Route path="/ecommerce-clothing" element={<Product/>}/>
           <Route path="/product/:productId" element={<Product/>}/>
+          <Route path="/ecommerce-clothing" element={<Product/>}/>
           <Route path="/cart" element={<Cart/>}/>
+          <Route path="/ecommerce-clothing" element={<Cart/>}/>
           <Route path="/login" element={<LoginSignUp />}/>
+          <Route path="/ecommerce-clothing" element={<LoginSignUp />}/>
         </Routes>
         <Footer/>
       </Router>
